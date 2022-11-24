@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Press Start 2P', cursive;
+}
+.row {
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateX(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+.background {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://i.pinimg.com/originals/65/56/1b/65561bcd7297aa0aa22bd297dd4bb854.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+/* THIS IS FOR RESPONSIVE BACKGROUND */
+@media  screen and (max-width: 101px) {
+    .background {
+        height: 200vh;
+    }
+    
+}
+@media  screen and (max-width: 100px) {
+    .background {
+        height: 200vh ;
+        
+    }
+    
+}
+@media  screen and (min-width: 1500px) {
+    .background {
+        height: 100vh ;
+        
+    }
+    
+}
+
+
+/* THIS IS FOR NAVIGATION BAR */
+.navbar {
+    background: rgba(95, 94, 94, 0.2);
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    
+}
+
+
+nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    
+    display: inline-block;
+    padding: 0px 15px;
+}
+.navlinks li a {
+    
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+    
+    color: rgb(26, 216, 241);
+    
+    
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    margin: 0%;
+    color: white;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+
+/* THIS IS FOR CONTENT TEXT */
+
+.row {
+    display: flexbox;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0px;
+
+}   
+h1{
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: aliceblue;
+
+}
+p {
+
+    color: aliceblue;
+
+    font-size: 13px;
+}
+
+
+
+/* THIS IS FOR LOGO AND TEXT */
+h3 {
+    text-decoration: none;
+    font-size: 10px;
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 50px;
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+
+    width: 190px;
+    height: 100px;
+    border: none;
+    border-radius: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px 20px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+    
+}
+
+.btn p {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+
+}
+
+.btn a img {
+    width: 120px;
+    height: 120px;
+    margin-right: 12px;
+}
+
+.btn p:hover {
+    transform: scale(1.2);
+}
+
+
+.btn3 a img {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn hr {
+    margin-top: 50px;
+}
+
+/* THIS IS FOR ABOUT*/
+.about-creator {
+    text-align: center;
+}
+.creator {
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+}
+.creator li {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+}
+
+.creator li:hover {
+    transform: translateY(-5px);
+}
+
+/* THIS IS FOR CREDITS */
+
+.creds {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 50px;
+
+}
+
+.creds li {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+}
+
+.creds li:hover {
+    transform:translateY(-5px);
+}
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS FOR FOOTER */
+.footer p {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 7px;
+    opacity: 50%; 
+}
