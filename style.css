@@ -116,6 +116,9 @@ nav ul li a{
     margin: 0%;
 }
 
+.logo:hover{
+   cursor:pointer;
+}
 
 
 /* THIS IS FOR CONTENT TEXT */
