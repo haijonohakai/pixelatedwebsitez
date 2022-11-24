@@ -13,7 +13,8 @@
     <div class="empty">
         <div class="background"> 
             <div class="navbar"> 
-                <img src="pics/logonav.png" class="logo" alt="logo">
+                <img src="pics/c3.png" class="logo" alt="logo">
+                <p> music </p>
                 <nav>
                     <ul class="navlinks"> 
                         <li><a href="index.html"> HOME </a></li> 
@@ -64,7 +65,25 @@
             </div>
         </div>
     </div>
-    
+    <audio id="mySong"> 
+        <source src="bglofi.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mySong = document.getElementById("mySong");
+        var lg = document.getElementById("lg");
+        mySong.volume = 0.3;
+
+        lg.onclick = function(){
+            if(mySong.paused){
+                mySong.play();
+                lg.src = "pics/c1.png";
+            } else {
+                mySong.pause();
+                lg.src = "pics/c3.png";
+            }
+        }
+
+    </script>
       
     
 
