@@ -212,7 +212,7 @@ h3:hover {
     text-align: center;
 }
 .creator {
-    list-decoration: none;
+    list-style: none;
     text-decoration: none;
     color: white;
     margin-top: 50px;
